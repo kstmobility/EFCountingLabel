@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E85F766E25E39D99009744A5 /* EFCountingLabel_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85F766425E39D98009744A5 /* EFCountingLabel_iOS.framework */; };
+		E85F766E25E39D99009744A5 /* EFCountingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85F766425E39D98009744A5 /* EFCountingLabel.framework */; };
 		E85F767325E39D99009744A5 /* EFCountingLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F767225E39D99009744A5 /* EFCountingLabelTests.swift */; };
 		E85F767525E39D99009744A5 /* EFCountingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = E85F766725E39D98009744A5 /* EFCountingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E85F768325E39DEF009744A5 /* EFCountAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85F768025E39DEF009744A5 /* EFCountAdapter.swift */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E85F766425E39D98009744A5 /* EFCountingLabel_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCountingLabel_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85F766425E39D98009744A5 /* EFCountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85F766725E39D98009744A5 /* EFCountingLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EFCountingLabel.h; sourceTree = "<group>"; };
 		E85F766825E39D98009744A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85F766D25E39D99009744A5 /* EFCountingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFCountingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85F766E25E39D99009744A5 /* EFCountingLabel_iOS.framework in Frameworks */,
+				E85F766E25E39D99009744A5 /* EFCountingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 		E85F766525E39D98009744A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E85F766425E39D98009744A5 /* EFCountingLabel_iOS.framework */,
+				E85F766425E39D98009744A5 /* EFCountingLabel.framework */,
 				E85F766D25E39D99009744A5 /* EFCountingLabelTests.xctest */,
 			);
 			name = Products;
@@ -115,9 +115,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E85F766325E39D98009744A5 /* EFCountingLabel iOS */ = {
+		E85F766325E39D98009744A5 /* EFCountingLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E85F767825E39D99009744A5 /* Build configuration list for PBXNativeTarget "EFCountingLabel iOS" */;
+			buildConfigurationList = E85F767825E39D99009744A5 /* Build configuration list for PBXNativeTarget "EFCountingLabel" */;
 			buildPhases = (
 				E85F765F25E39D98009744A5 /* Headers */,
 				E85F766025E39D98009744A5 /* Sources */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = "EFCountingLabel iOS";
+			name = EFCountingLabel;
 			productName = EFCountingLabel;
-			productReference = E85F766425E39D98009744A5 /* EFCountingLabel_iOS.framework */;
+			productReference = E85F766425E39D98009744A5 /* EFCountingLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E85F766C25E39D99009744A5 /* EFCountingLabelTests */ = {
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E85F766325E39D98009744A5 /* EFCountingLabel iOS */,
+				E85F766325E39D98009744A5 /* EFCountingLabel */,
 				E85F766C25E39D99009744A5 /* EFCountingLabelTests */,
 			);
 		};
@@ -231,7 +231,7 @@
 /* Begin PBXTargetDependency section */
 		E85F767025E39D99009744A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E85F766325E39D98009744A5 /* EFCountingLabel iOS */;
+			target = E85F766325E39D98009744A5 /* EFCountingLabel */;
 			targetProxy = E85F766F25E39D99009744A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -464,7 +464,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E85F767825E39D99009744A5 /* Build configuration list for PBXNativeTarget "EFCountingLabel iOS" */ = {
+		E85F767825E39D99009744A5 /* Build configuration list for PBXNativeTarget "EFCountingLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E85F767925E39D99009744A5 /* Debug */,

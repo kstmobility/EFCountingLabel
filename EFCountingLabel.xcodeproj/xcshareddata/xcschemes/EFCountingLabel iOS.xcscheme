@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E85F766325E39D98009744A5"
-               BuildableName = "EFCountingLabel_iOS.framework"
-               BlueprintName = "EFCountingLabel iOS"
+               BuildableName = "EFCountingLabel.framework"
+               BlueprintName = "EFCountingLabel"
                ReferencedContainer = "container:EFCountingLabel.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E85F766325E39D98009744A5"
-            BuildableName = "EFCountingLabel_iOS.framework"
-            BlueprintName = "EFCountingLabel iOS"
+            BuildableName = "EFCountingLabel.framework"
+            BlueprintName = "EFCountingLabel"
             ReferencedContainer = "container:EFCountingLabel.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
